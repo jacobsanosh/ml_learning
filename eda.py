@@ -11,7 +11,7 @@ st.set_option('deprecation.showPyplotGlobalUse',False)
 st.title('tips_dataset')
 
 #setting dataset 
-datas = pd.read_csv('/home/sanosh_jacob/seaborn-data/tips.csv')
+datas = pd.read_csv('tips.csv')
 #selceting the top 12
 tips=datas.head(10)
 #displaying them in the form of table
